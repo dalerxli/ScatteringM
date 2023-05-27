@@ -17,7 +17,7 @@ The bottom-up construction can reduce the elements of global S-matrix to quantif
 
 <img src="Images/technique.png" width="600">
 
-The benchmark was implemented in plasmonic sensor.The jupyter notebooks are in [Example 2](1RCWA/Ex2_plasmonic_sensor_RT.ipynb) and [Example 3](1RCWA/Ex3_plasmonic_sensor_RT_advanced.ipynb). At the common diffraction order of  5 (or Fourier truncation=11), our RCWA was 10X faster. However, it must be noted that the comparison is relative. [Jon Schlipf and Inga A. Fischer, Opt.Express.2021](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-22-36201&id=461916) employed Julia in a node of a workstation cluster with 24 cores, while our work uses Python within a personal laptop equipped with Intel® core i7 CPU. 
+The benchmark was implemented in plasmonic sensor.The jupyter notebooks are in [Example 2](Ex2_plasmonic_sensor_RT.ipynb) and [Example 3](Ex3_plasmonic_sensor_RT_advanced.ipynb). At the common diffraction order of  5 (or Fourier truncation=11), our RCWA was 10X faster. However, it must be noted that the comparison is relative. [Jon Schlipf and Inga A. Fischer, Opt.Express.2021](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-22-36201&id=461916) employed Julia in a node of a workstation cluster with 24 cores, while our work uses Python within a personal laptop equipped with Intel® core i7 CPU. 
 
 <img src="Images/sensor_time.png" width="300">
 
