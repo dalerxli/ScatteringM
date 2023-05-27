@@ -4,7 +4,7 @@
 ScatteringM aims to provide efficient solutions for optical metrology, inverse design and full wave simulation of multilayers. The key factor of ScatteringM is ultrafast RCWA simulations for both subwavelength gratings and large areas. We have developed a new algorithm to successfully **run RCWA on GPUs**.
 
 ### History:
-ScatteringM has been developing since 2020. At the beginning, the idea was to use neural networks (NN) for optical metrology. However, current NNs are usually studied for simple 2D/3D structures with few paramters that are not applicable for our practical case: 3D multilayers with tens of parameters   
+ScatteringM has been developing since 2020. At the beginning, the idea was to use neural networks (NN) for optical metrology. However, current NNs usually study simple 2D/3D structures with few paramters that are not applicable for our practical case: 3D multilayers with tens of parameters   
 <img src="Images/Project.png" width="400">
 
 We must strive for a break-through approach to meet the demand of such practical metrology. Step by step, ScatteringM has evolved to fulfill metrology challenges and now, ScatteringM is expanding to metasurfaces. 
